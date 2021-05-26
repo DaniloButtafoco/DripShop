@@ -1,0 +1,86 @@
+* {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.form-control {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-outline-success {
+  color: gray;
+  border-color: #4bbf73;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-img, .card-img-top, .card-img-bottom {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rounded, .img-fluid {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-dark .navbar-toggler {
+  color: black;
+}
+
+.btn-primary {
+  background-color: orange;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar {
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+
+.bg-dark {
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+
+.latestProductH1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 1rem 0;
+  color: red;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rounded,
+.img-fluid {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.rounded:hover {
+  filter: drop-shadow(0px 4px 4px gray);
+}
